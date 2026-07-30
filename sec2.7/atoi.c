@@ -12,4 +12,13 @@ int atoi(char s[])
     }
     return n;
 }
+i
 
+/* lower: convert char c to lower case | ASCII only */
+
+int lower(int c)
+{
+   if (c >= 'A' && c <= 'Z')
+      return c + 'a' - 'A';
+   return c;
+}
