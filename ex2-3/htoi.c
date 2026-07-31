@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int htoi(char s[]); /* htoi: convert s to hex */
+int htoi(char s[]); /* htoi: convert s to int */
 
 int main(void)
 {
