@@ -72,7 +72,7 @@ void insert(char buff[], int *len, int pos, char val) {
 
 	//Shifts elements to the right
 	for (int i = *len + 1; i > pos; --i)
-		buff[i] = buff[i - 1];
+		buff[i] = buff[--i];
 
 	buff[pos] = val;
 	++(*len);
