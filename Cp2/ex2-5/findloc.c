@@ -1,4 +1,4 @@
-/* K&R exercise 2-5. I've utilized an array to store the char values, so my algorithm becomes O(1) instead of O(n^2). */
+/* K&R exercise 2-5. I've utilized an array to store the char values, so my algorithm becomes O(m + n) instead of O(n^2). */
 
 #include <stdio.h>
 
