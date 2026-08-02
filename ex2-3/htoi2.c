@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int htoi(char s[]); /* htoi: convert s to int */
+int htoi(unsigned char s[]); /* htoi: convert s to int */
 
 int main(void)
 {
-    char s[] = "0x1A3F";
+    unsigned char s[] = "0x1A3F";
     printf("%d\n", htoi(s));
     return 0;
 }
 
-int htoi(char s[])
+int htoi(unsigned char s[])
 {
     int i, k, n;
     n = k = 0;
