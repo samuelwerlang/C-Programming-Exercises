@@ -53,7 +53,7 @@ void escapetoc(char s[], char t[])
                         i += 2;
                         break;
                     case 'n':
-                        t[j++] = '\t';
+                        t[j++] = '\n';
                         i += 2;
                         break;
                 }
