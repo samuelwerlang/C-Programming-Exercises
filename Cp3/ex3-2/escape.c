@@ -60,6 +60,7 @@ void escapetoc(char s[], char t[])
             break; 
             default:
                 t[j++] = s[i++];
+                break;
         }
         t[j] = '\0';
 }
